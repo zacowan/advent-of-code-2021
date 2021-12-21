@@ -1,9 +1,9 @@
-from .solution_p2 import solve
+from solution_p2 import solve
 
 # Read input
 vals = []
 
-with open(f"days/one/input.txt", 'r') as f:
+with open(f"days/01/input.txt", 'r') as f:
     vals = f.read().splitlines()
 
 for i in range(len(vals)):
